@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "echo 'ok'",
+    "test": "cypress open --component",
+    "test:headless": "cypress run --component",
     "lint": "next lint",
     "lint:fix": "next lint --fix"
   },
@@ -25,6 +26,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "cypress": "^12.17.1",
     "eslint-plugin-adonis": "^2.1.1",
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "husky": "^8.0.3"
