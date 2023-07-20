@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
-import { Markdown } from '~/components/markdown.component'
-import { Page } from '~/components/page.component'
+import { Markdown } from '~/components/markdown'
+import { Page } from '~/components/page'
 import { getPostBySlug } from '~/lib/api'
 
 interface PageParameters {
