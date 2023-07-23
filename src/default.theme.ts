@@ -2,11 +2,15 @@
 
 import type { Theme } from 'theme-ui'
 
-const black = '#14171c'
+const blackColor = '#14171c'
 const primaryColor = '#5081F3'
+const colorInBetweenOne = '#7a71f9'
+const colorInBetweenTwo = '#715df3'
 const complementaryColor = '#A671F9'
 const textColor = 'rgba(0, 0, 0, 0.6)'
 const textInverseColor = 'rgba(255, 255, 255, 0.9)'
+const boxShadowColor = 'rgba(0, 0, 0, 0.125)'
+const boxShadowInverseColor = 'rgba(255, 255, 255, 0.125)'
 
 export const theme: Theme = {
   config: {
@@ -22,11 +26,15 @@ export const theme: Theme = {
     background: textInverseColor,
     primary: primaryColor,
     complementary: complementaryColor,
+    colorInBetweenOne,
+    colorInBetweenTwo,
     linear: `linear-gradient(90deg, ${ primaryColor } 5%, ${ complementaryColor } 100%)`,
+    boxShadowColor,
     modes: {
       dark: {
         text: textInverseColor,
-        background: black,
+        background: blackColor,
+        boxShadowColor: boxShadowInverseColor,
       },
     },
   },
@@ -41,6 +49,24 @@ export const theme: Theme = {
       fontFamily: 'heading',
       textFillColor: 'transparent',
       width: 'fit-content',
+    },
+  },
+  cards: {
+    primary: {
+      border: '1px solid',
+      borderColor: 'boxShadowColor',
+      borderRadius: 4,
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 3,
+      padding: 4,
+    },
+    compact: {
+      padding: 1,
+      display: 'inline-flex',
+      borderRadius: 2,
+      border: '1px solid',
+      borderColor: 'muted',
     },
   },
   styles: {

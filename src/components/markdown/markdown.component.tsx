@@ -5,11 +5,18 @@ import remarkDirective from 'remark-directive'
 import remarkDirectiveRehype from 'remark-directive-rehype'
 
 import {
-  AnchorDirective, HeadingFiveDirective, HeadingFourDirective,
-  HeadingOneDirective, HeadingSixDirective, HeadingThreeDirective, HeadingTwoDirective,
+  AnchorDirective,
+  CardDirective,
+  HeadingFiveDirective,
+  HeadingFourDirective,
+  HeadingOneDirective,
+  HeadingSixDirective,
+  HeadingThreeDirective,
+  HeadingTwoDirective,
   ParagraphDirective,
   PostListDirective,
 } from '~/components/markdown/directives'
+import { LaboralRightsGridDirective, VacationDaysTableDirective } from '~/components/markdown/directives/page-specific'
 
 interface Props {
   content: Post['content'];
@@ -17,6 +24,7 @@ interface Props {
 
 const components = {
   'post-list': PostListDirective,
+  'card': CardDirective,
   p: ParagraphDirective,
   a: AnchorDirective,
   h1: HeadingOneDirective,
@@ -25,6 +33,10 @@ const components = {
   h4: HeadingFourDirective,
   h5: HeadingFiveDirective,
   h6: HeadingSixDirective,
+
+  // page-specific
+  'laboral-rights-grid': LaboralRightsGridDirective,
+  'vacation-days-table': VacationDaysTableDirective,
 }
 
 export const Markdown: FC<Props> = async ({ content }) => {
