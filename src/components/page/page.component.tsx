@@ -3,7 +3,7 @@
 import { Property } from 'csstype'
 import Link from 'next/link'
 import { FC, ReactNode } from 'react'
-import { Flex, Grid, Heading, Link as TuiLink } from 'theme-ui'
+import { Flex, Grid, Heading, Link as TuiLink, ThemeUIStyleObject } from 'theme-ui'
 
 type FlexDirection = Property.FlexDirection
 
@@ -13,7 +13,7 @@ interface Props {
   showGoHome?: boolean;
 }
 
-const styles = {
+const styles: Record<string, ThemeUIStyleObject> = {
   grid: {
     alignItems: 'center',
     alignContent: 'space-around',
@@ -30,16 +30,16 @@ const styles = {
   },
   header: {
     alignItems: 'center',
-    flexDirection: ['column', 'row'] satisfies FlexDirection[],
-    gap: 3,
+    flexDirection: ['column', 'row'],
+    gap: [4, 3],
     gridArea: 'header',
     justifyContent: 'space-between',
     pb: 3,
     pt: 3,
   },
   nav: {
-    gap: 3,
-    justifyContent: ['flex-start', 'flex-end'],
+    gap: 4,
+    justifyContent: ['center', 'flex-end'],
     width: ['100%', 'auto'],
   },
   body: {
@@ -48,10 +48,17 @@ const styles = {
   },
   heading: {
     background: 'linear',
-    color: 'white',
+    color: 'background',
     padding: 3,
     borderRadius: 8,
-    textFillColor: 'white',
+    textAlign: 'center',
+    textFillColor: 'inherit',
+  },
+  link: {
+    fontSize: '0.9rem',
+    letterSpacing: '0.8px',
+    textDecoration: 'none',
+    textTransform: 'uppercase',
   },
 }
 
@@ -68,7 +75,9 @@ export const Page: FC<Props> = ({ children, showGoHome, title }) => {
 
         <Flex as='nav' sx={ styles.nav }>
           { navItems.map((item) => (
-            <TuiLink key={ item.href } as={ Link } href='/'>{ item.label }</TuiLink>
+            <TuiLink key={ item.href } as={ Link } href='/' sx={ styles.link }>
+              { item.label }
+            </TuiLink>
           )) }
         </Flex>
       </Flex>

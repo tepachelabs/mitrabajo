@@ -4,8 +4,8 @@ import { FC, PropsWithChildren } from 'react'
 import { Heading } from 'theme-ui'
 
 const props = {
-  mb: 3,
-  mt: 4,
+  mb: [2, 3],
+  mt: [3, 4],
 }
 
 export const HeadingOneDirective: FC<PropsWithChildren> = ({ children }) => {
