@@ -12,6 +12,7 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
@@ -24,6 +25,7 @@
     "react-markdown": "^8.0.7",
     "remark-directive": "^2.0.1",
     "remark-directive-rehype": "^0.4.2",
+    "theme-ui": "^0.16.0",
     "typescript": "5.1.6"
   },
   "devDependencies": {

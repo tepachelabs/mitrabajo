@@ -11,7 +11,7 @@ La legalidad de tu trabajo puede ser verificada de diversas formas. En este siti
 
 Entiende el panorama legal de tu trabajo consultando nuestra lista de artículos a continuación:
 
-::post-list
+::post-list{decoration="👉"}
 
 ### Realiza nuestra encuesta
 
