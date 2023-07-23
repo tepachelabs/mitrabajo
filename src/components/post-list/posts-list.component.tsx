@@ -31,7 +31,7 @@ export const PostsList: FC<Props> = ({ decoration = '•', posts, title }) => {
 
       { posts.map((post) => (
         <Box as='li' key={ post.slug } sx={ styles.li(decoration) }>
-          <TuiLink as={ Link } href={ `/article/${ post.slug }` }>
+          <TuiLink as={ Link } href={ `/articulos/${ post.slug }` }>
             <Text>
               { post.title }
             </Text>

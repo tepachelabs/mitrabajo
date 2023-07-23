@@ -60,11 +60,14 @@ const styles: Record<string, ThemeUIStyleObject> = {
     textDecoration: 'none',
     textTransform: 'uppercase',
   },
+  backLink: {
+    pt: 3,
+  },
 }
 
 const navItems = [
   { label: 'Inicio', href: '/' },
-  { label: 'Artículos', href: '/articles' },
+  { label: 'Artículos', href: '/articulos' },
 ]
 
 export const Page: FC<Props> = ({ children, showGoHome, title }) => {
@@ -75,7 +78,7 @@ export const Page: FC<Props> = ({ children, showGoHome, title }) => {
 
         <Flex as='nav' sx={ styles.nav }>
           { navItems.map((item) => (
-            <TuiLink key={ item.href } as={ Link } href='/' sx={ styles.link }>
+            <TuiLink key={ item.href } as={ Link } href={ item.href } sx={ styles.link }>
               { item.label }
             </TuiLink>
           )) }
@@ -85,7 +88,7 @@ export const Page: FC<Props> = ({ children, showGoHome, title }) => {
       <Grid sx={ styles.body }>
         { title && <Heading as='h2' mb={ 4 }>{ title }</Heading> }
         { children }
-        { showGoHome && <TuiLink as={ Link } href='/'>Regresar a Inicio 🏠</TuiLink> }
+        { showGoHome && <TuiLink as={ Link } href='/' sx={ styles.backLink }>Regresar a Inicio 🏠</TuiLink> }
       </Grid>
 
       <Flex as='footer'>

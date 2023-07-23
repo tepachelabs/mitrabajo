@@ -4,7 +4,7 @@ import { join } from 'path'
 import matter from 'gray-matter'
 
 const contentDirectory = join(process.cwd(), '_posts')
-const fileExclusions = ['landing.md']
+const fileExclusions = ['landing.md', 'articulos.md']
 
 function getPostSlugs () {
   const slugs = fs.readdirSync(contentDirectory)
