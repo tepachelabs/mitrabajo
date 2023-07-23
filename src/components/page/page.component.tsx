@@ -26,6 +26,7 @@ const styles = {
     maxWidth: '960px',
     margin: '0 auto',
     p: 3,
+    pt: 0,
   },
   header: {
     alignItems: 'center',
@@ -45,6 +46,13 @@ const styles = {
     gridArea: 'body',
     gridGap: 0,
   },
+  heading: {
+    background: 'linear',
+    color: 'white',
+    padding: 3,
+    borderRadius: 8,
+    textFillColor: 'white',
+  },
 }
 
 const navItems = [
@@ -56,7 +64,7 @@ export const Page: FC<Props> = ({ children, showGoHome, title }) => {
   return (
     <Grid sx={ styles.grid }>
       <Flex sx={ styles.header }>
-        <Heading as='h1'>¿Es Legal mi Trabajo?</Heading>
+        <Heading as='h1' sx={ styles.heading }>¿Es Legal mi Trabajo? 🤔</Heading>
 
         <Flex as='nav' sx={ styles.nav }>
           { navItems.map((item) => (
@@ -66,9 +74,9 @@ export const Page: FC<Props> = ({ children, showGoHome, title }) => {
       </Flex>
 
       <Grid sx={ styles.body }>
-        { title && <Heading as='h2' mb={4}>{ title }</Heading> }
+        { title && <Heading as='h2' mb={ 4 }>{ title }</Heading> }
         { children }
-        { showGoHome && <TuiLink as={ Link } href='/'>Regresar a Inicio</TuiLink> }
+        { showGoHome && <TuiLink as={ Link } href='/'>Regresar a Inicio 🏠</TuiLink> }
       </Grid>
 
       <Flex as='footer'>

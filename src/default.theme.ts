@@ -17,6 +17,7 @@ export const theme: Theme = {
     background: '#fff',
     primary: primaryColor,
     complementary: complementaryColor,
+    linear: `linear-gradient(90deg, ${ primaryColor } 5%, ${ complementaryColor } 100%)`,
   },
   lineHeights: {
     body: 1.5,
@@ -35,6 +36,8 @@ export const theme: Theme = {
     a: {
       color: 'primary',
       fontWeight: '500',
+      willChange: 'color',
+      transition: 'color 0.15s ease-in-out',
       '&:hover': {
         color: 'complementary',
       },
