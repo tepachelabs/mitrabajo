@@ -13,8 +13,11 @@ import {
   HeadingSixDirective,
   HeadingThreeDirective,
   HeadingTwoDirective,
+  ListItemDirective,
+  OrderedListDirective,
   ParagraphDirective,
   PostListDirective,
+  UnorderedListDirective,
 } from '~/components/markdown/directives'
 import { LaboralRightsGridDirective, VacationDaysTableDirective } from '~/components/markdown/directives/page-specific'
 
@@ -33,6 +36,9 @@ const components = {
   h4: HeadingFourDirective,
   h5: HeadingFiveDirective,
   h6: HeadingSixDirective,
+  ol: OrderedListDirective,
+  ul: UnorderedListDirective,
+  li: ListItemDirective,
 
   // page-specific
   'laboral-rights-grid': LaboralRightsGridDirective,

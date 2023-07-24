@@ -1,7 +1,7 @@
 'use client'
 
 import { FC, ReactNode } from 'react'
-import { Card, Heading, Text } from 'theme-ui'
+import { Card, Heading, Paragraph } from 'theme-ui'
 
 interface Props {
   children?: ReactNode;
@@ -18,7 +18,7 @@ export const CardDirective: FC<Props> = ({ children, content }) => {
   return (
     <Card sx={ styles.card }>
       <Heading as='h3'>{ children }</Heading>
-      <Text>{ content }</Text>
+      <Paragraph>{ content }</Paragraph>
     </Card>
   )
 }

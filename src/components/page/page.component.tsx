@@ -1,11 +1,8 @@
 'use client'
 
-import { Property } from 'csstype'
 import Link from 'next/link'
 import { FC, ReactNode } from 'react'
-import { Flex, Grid, Heading, Link as TuiLink, ThemeUIStyleObject } from 'theme-ui'
-
-type FlexDirection = Property.FlexDirection
+import { Flex, Grid, Heading, Link as TuiLink, Paragraph, ThemeUIStyleObject } from 'theme-ui'
 
 interface Props {
   children: ReactNode
@@ -16,8 +13,6 @@ interface Props {
 const styles: Record<string, ThemeUIStyleObject> = {
   grid: {
     alignItems: 'center',
-    alignContent: 'space-around',
-    justifyContent: 'space-between',
     gridTemplateAreas: `
       "header"
       "body"
@@ -45,12 +40,15 @@ const styles: Record<string, ThemeUIStyleObject> = {
   body: {
     gridArea: 'body',
     gridGap: 0,
+    pb: 5,
+    width: '100%',
   },
   heading: {
     background: 'linear',
-    color: 'background',
-    padding: 3,
     borderRadius: 8,
+    color: 'background',
+    fontSize: 5,
+    padding: 3,
     textAlign: 'center',
     textFillColor: 'inherit',
   },
@@ -63,18 +61,25 @@ const styles: Record<string, ThemeUIStyleObject> = {
   backLink: {
     pt: 3,
   },
+  footer: {
+    borderTop: '1px solid',
+    borderColor: 'boxShadowColor',
+    pb: 4,
+    pt: 4,
+  },
 }
 
 const navItems = [
   { label: 'Inicio', href: '/' },
   { label: 'Artículos', href: '/articulos' },
+  { label: 'LFT', href: '/ley-federal-del-trabajo' },
 ]
 
 export const Page: FC<Props> = ({ children, showGoHome, title }) => {
   return (
     <Grid sx={ styles.grid }>
       <Flex sx={ styles.header }>
-        <Heading as='h1' sx={ styles.heading }>¿Es Legal mi Trabajo? 🤔</Heading>
+        <Heading as='span' sx={ styles.heading }>¿Es Legal mi Trabajo? 🤔</Heading>
 
         <Flex as='nav' sx={ styles.nav }>
           { navItems.map((item) => (
@@ -86,13 +91,13 @@ export const Page: FC<Props> = ({ children, showGoHome, title }) => {
       </Flex>
 
       <Grid sx={ styles.body }>
-        { title && <Heading as='h2' mb={ 4 }>{ title }</Heading> }
+        { title && <Heading as='h1' mb={ 4 }>{ title }</Heading> }
         { children }
         { showGoHome && <TuiLink as={ Link } href='/' sx={ styles.backLink }>Regresar a Inicio 🏠</TuiLink> }
       </Grid>
 
-      <Flex as='footer'>
-        <p>Copyright &copy; 2023 TepacheLabs</p>
+      <Flex as='footer' sx={ styles.footer }>
+        <Paragraph>Copyright &copy; 2023 TepacheLabs</Paragraph>
       </Flex>
     </Grid>
   )

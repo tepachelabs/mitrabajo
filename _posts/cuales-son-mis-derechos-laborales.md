@@ -1,7 +1,9 @@
 ---
-title: ¿Cuáles son mis derechos?
+title: ¿Cuáles son mis derechos laborales?
 ---
-Aquí te resumimos tus derechos laborales en México.
+Los derechos laborales en México son un conjunto de normas legales que regulan las relaciones de trabajo. Protegen y promueven el bienestar de los trabajadores.
+
+Aquí te resumimos tus derechos laborales en México. Para más detalle, no olvides consultar la [Ley Federal del Trabajo](/ley-federal-del-trabajo).
 
 ## 💸 Derecho a un salario
 
@@ -19,13 +21,13 @@ Los empleadores deben proporcionar un ambiente de trabajo seguro y saludable. Es
 
 Los trabajadores tienen derecho a por lo menos un día de descanso por cada seis días de trabajo, así como a vacaciones pagadas y días festivos.
 
-::vacation-days-table
+Consulta nuestro artículo sobre [cómo funcionan las vacaciones en México](/articulos/como-funcionan-las-vacaciones-en-mexico).
 
-## 🩺 Derecho a la seguridad social
+## ⚕️ Derecho a la seguridad social
 
 Todo trabajador en México tiene derecho a la seguridad social, que incluye el acceso a servicios médicos, pensiones y otras prestaciones.
 
-## 📖 Derecho a la capacitación y al adiestramiento
+## ✏️ Derecho a la capacitación y al adiestramiento
 
 Los trabajadores tienen derecho a recibir capacitación o adiestramiento en su trabajo para mejorar sus habilidades y capacidades.
 

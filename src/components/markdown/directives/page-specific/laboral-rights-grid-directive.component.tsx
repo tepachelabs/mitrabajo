@@ -1,7 +1,7 @@
 'use client'
 
 import { FC } from 'react'
-import { Card, Flex, Grid, Heading, Text } from 'theme-ui'
+import { Card, Flex, Grid, Heading, Paragraph } from 'theme-ui'
 
 import { theme } from '~/default.theme'
 
@@ -64,7 +64,7 @@ export const LaboralRightsGridDirective: FC = () => {
             <Card key={ item.title }>
               <Flex sx={ styles.emoji(emojiBackground[colorIndex]) }>{ item.emoji }</Flex>
               <Heading as='h3'>{ item.title }</Heading>
-              <Text>{ item.content }</Text>
+              <Paragraph>{ item.content }</Paragraph>
             </Card>
           )
         })

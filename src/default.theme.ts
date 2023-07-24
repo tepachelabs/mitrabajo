@@ -2,6 +2,7 @@
 
 import type { Theme } from 'theme-ui'
 
+// Colors
 const blackColor = '#14171c'
 const primaryColor = '#5081F3'
 const colorInBetweenOne = '#7a71f9'
@@ -17,8 +18,8 @@ export const theme: Theme = {
     useColorSchemeMediaQuery: 'system',
   },
   fonts: {
-    body: 'system-ui, sans-serif',
-    heading: '"Avenir Next", sans-serif',
+    body: 'var(--inter)',
+    heading: 'var(--oswald)',
     monospace: 'Menlo, monospace',
   },
   colors: {
@@ -38,15 +39,22 @@ export const theme: Theme = {
       },
     },
   },
+  fontWeights: {
+    body: 400,
+    heading: 700,
+    bold: 700,
+  },
   lineHeights: {
     body: 1.5,
-    heading: 1.125,
+    heading: 1.5,
   },
   text: {
     heading: {
       background: `linear-gradient(90deg, ${ primaryColor } 5%, ${ complementaryColor } 100%)`,
       backgroundClip: 'text',
       fontFamily: 'heading',
+      fontWeight: 'heading',
+      lineHeight: 'heading',
       textFillColor: 'transparent',
       width: 'fit-content',
     },
@@ -70,8 +78,14 @@ export const theme: Theme = {
     },
   },
   styles: {
+    root: {
+      fontFamily: 'body',
+      fontWeight: 'body',
+      lineHeight: 'body',
+    },
     a: {
       color: 'primary',
+      fontFamily: 'body',
       fontWeight: '500',
       willChange: 'color',
       transition: 'color 0.15s ease-in-out',
