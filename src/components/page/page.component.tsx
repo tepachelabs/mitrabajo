@@ -93,7 +93,7 @@ export const Page: FC<Props> = ({ children, showGoHome, title }) => {
       <Grid sx={ styles.body }>
         { title && <Heading as='h1' mb={ 4 }>{ title }</Heading> }
         { children }
-        { showGoHome && <TuiLink as={ Link } href='/' sx={ styles.backLink }>Regresar a Inicio 🏠</TuiLink> }
+        { showGoHome && <TuiLink as={ Link } href='/' sx={ styles.backLink }>Volver al Inicio 🏠</TuiLink> }
       </Grid>
 
       <Flex as='footer' sx={ styles.footer }>

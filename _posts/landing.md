@@ -3,9 +3,9 @@ title: ¿Es Legal Mi Trabajo?
 ---
 Te ayudamos a entender la legalidad de tu trabajo en México. Nos basamos en la Constitución Política de los Estados Unidos Mexicanos y la Ley Federal del Trabajo para brindarte información precisa y confiable.
 
-## ¿Cómo saber si tu trabajo es legal?
+# ¿Cómo saber si tu trabajo es legal?
 
-La legalidad de tu trabajo puede ser verificada de diversas formas. En este sitio, te ofrecemos dos principales: puedes **leer nuestros artículos** detallados sobre tus derechos laborales o **realizar nuestra encuesta** para una revisión rápida.
+La legalidad de tu trabajo puede ser verificada de diversas formas. En este sitio, te ofrecemos dos principales: puedes [**leer nuestros artículos**](/articulos) detallados sobre tus derechos laborales o **realizar nuestra encuesta** para una revisión rápida.
 
 ## Consulta nuestros artículos
 
@@ -15,7 +15,7 @@ Entiende el panorama legal de tu trabajo consultando nuestra lista de artículos
 
 ## Realiza nuestra encuesta
 
-Si prefieres una revisión rápida, te invitamos a realizar nuestra encuesta totalmente anónima. Esta herramienta está diseñada para darte una idea general de la legalidad de tu trabajo basándose en unas pocas preguntas clave. Puedes comenzar la encuesta [aquí](/#).
+Si prefieres una revisión rápida, te invitamos a realizar nuestra encuesta totalmente anónima. Esta herramienta está diseñada para darte una idea general de la legalidad de tu trabajo basándose en unas pocas preguntas clave. Puedes comenzar la encuesta [aquí](/articulos/encuesta-para-saber-la-legalidad-de-tu-trabajo).
 
 ## Conócenos
 
