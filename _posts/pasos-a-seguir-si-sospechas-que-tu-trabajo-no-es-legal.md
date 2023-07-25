@@ -5,7 +5,7 @@ En México, la Ley Federal del Trabajo establece los derechos y responsabilidade
 
 ## Paso 1: Conocer tus derechos
 
-Según la [Ley Federal del Trabajo aquí](/ley-federal-del-trabajo), tienes derecho a condiciones justas y seguras de trabajo, así como a un salario justo. Es importante conocer y entender tus derechos para poder identificar si están siendo infringidos.
+Según la [Ley Federal del Trabajo](/ley-federal-del-trabajo), tienes derecho a condiciones justas y seguras de trabajo, así como a un salario justo. Es importante conocer y entender tus derechos para poder identificar si están siendo infringidos.
 
 ## Paso 2: Recopila evidencia
 

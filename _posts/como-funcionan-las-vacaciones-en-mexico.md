@@ -1,9 +1,7 @@
 ---
 title: ¿Cómo funcionan las vacaciones en México?
 ---
-Vamos a explorar un tema que a todos nos encanta: las **vacaciones**. ¿Sabías que la Ley Federal del Trabajo en México regula cómo deben otorgarse las vacaciones? Vamos a descubrirlo.
-
-Antes de comenzar, queremos recordarte que aunque el trabajo es importante, también lo son los descansos. Un buen descanso nos ayuda a mantenernos sanos, a aumentar nuestra productividad y a mejorar nuestro bienestar general. ¡Así que no olvides tomarte un tiempo para ti!
+Aunque el trabajo es importante, también lo son los descansos. Un buen descanso nos ayuda a mantenernos sanos, a aumentar nuestra productividad y a mejorar nuestro bienestar general. ¡Así que no olvides tomarte un tiempo para ti!
 
 ## ¿Cómo funcionan las vacaciones según la ley?
 
@@ -18,6 +16,18 @@ Además, a partir del sexto año se sumarán 2 días de vacaciones por cada 5 a�
 ::vacation-days-table{extended="true"}
 
 Por otro lado, además de tu salario regular, durante tus vacaciones recibirás una prima vacacional. Según el artículo 80, esta prima debe ser del 25% como mínimo sobre los salarios que te correspondan durante el periodo de vacaciones.
+
+## ¿Qué pasa cuando prestas servicios discontinuos?
+
+En este caso, los trabajadores que presten servicios discontinuos y/o de temporada, tendrán derecho a un periodo anual de vacaciones pero esto se llevará a cabo en proporción al número de días de trabajo en el año.
+
+## ¿Me pueden obligar a tomar vacaciones?
+
+No te pueden obligar a tomar tus vacaciones.
+
+## ¿Qué hacer si no te permiten tomar tus vacaciones?
+
+En caso de que tu patrón exponga excusas o no te permita tomar tus vacaciones puedes acudir a la Procuraduría Federal de la Defensa del Trabajo ([PROFEDET](https://www.gob.mx/profedet)) para recibir asesoría sobre cómo proceder.
 
 ## En resumen
 
