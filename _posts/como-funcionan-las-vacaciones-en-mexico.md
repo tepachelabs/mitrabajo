@@ -35,5 +35,4 @@ En caso de que tu patrón exponga excusas o no te permita tomar tus vacaciones p
 
 Las vacaciones son un derecho laboral en México. No solo son un tiempo para relajarte y disfrutar, sino que también son una forma de asegurarte de que estás trabajando en condiciones legales y justas. Así que, ¡no olvides tomarte un descanso de vez en cuando!
 
-*Nota: Este artículo es para fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre tus derechos laborales, te recomendamos que consultes a un abogado laboral.*
-
+::disclaimer

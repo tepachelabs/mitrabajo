@@ -27,4 +27,4 @@ En México, la [Ley Federal del Trabajo](/ley-federal-del-trabajo) establece los
 
 Si experimentas alguna de estas situaciones, podría ser una señal de que [tu empleo no cumple con la Ley Federal del Trabajo](/articulos/pasos-a-seguir-si-sospechas-que-tu-trabajo-no-es-legal). Es importante que busques asesoría legal para proteger tus derechos.
 
-*Nota: Este artículo tiene fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre la legalidad de tu trabajo, te recomendamos que consultes a un abogado laboral.*
+::disclaimer

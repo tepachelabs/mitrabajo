@@ -36,3 +36,5 @@ Los trabajadores tienen derecho a recibir capacitación o adiestramiento en su t
 ## 🧱️ Derecho a la estabilidad en el empleo
 
 Los trabajadores tienen protección contra el despido injustificado, y en caso de que esto ocurra, tienen derecho a una indemnización.
+
+::disclaimer

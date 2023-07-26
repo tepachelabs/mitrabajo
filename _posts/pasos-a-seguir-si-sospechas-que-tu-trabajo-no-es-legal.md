@@ -27,4 +27,4 @@ Mantén la comunicación con tu asesor legal y con la STPS durante el proceso de
 
 Es importante recordar que cada situación es única y que estos pasos son solo una guía general. En todos los casos, te recomendamos buscar asesoría legal profesional para manejar adecuadamente tu situación.
 
-*Nota: Este artículo tiene fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre la legalidad de tu trabajo, te recomendamos que consultes a un abogado laboral.*
+::disclaimer

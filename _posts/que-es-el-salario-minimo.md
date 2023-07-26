@@ -15,4 +15,4 @@ El salario mínimo en México se determina cada año por la Comisión Nacional d
 
 Aunque el trabajo es esencial en nuestras vidas, también es importante tomar descansos. Conoce más acerca de tu [derecho a vacaciones pagadas en México](/articulos/como-funcionan-las-vacaciones-en-mexico).
 
-*Nota: Este artículo es para fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre tus derechos laborales, te recomendamos que consultes a un abogado laboral.*
+::disclaimer

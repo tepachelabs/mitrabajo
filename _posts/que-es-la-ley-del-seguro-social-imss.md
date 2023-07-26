@@ -11,4 +11,4 @@ El Instituto Mexicano del Seguro Social (IMSS), la institución encargada de apl
 
 Como trabajador, tu empleador tiene la obligación de registrarte en el IMSS. Este registro te da derecho a recibir los beneficios de seguridad social establecidos en la ley. Es importante que verifiques con tu empleador que estás debidamente registrado. Si no lo estás, puedes acudir a la Procuraduría Federal de la Defensa del Trabajo ([PROFEDET](https://www.gob.mx/profedet)) o al propio IMSS para recibir asesoría sobre cómo proceder.
 
-*Nota: Este artículo es para fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre tus derechos laborales, te recomendamos que consultes a un abogado laboral.*
+::disclaimer

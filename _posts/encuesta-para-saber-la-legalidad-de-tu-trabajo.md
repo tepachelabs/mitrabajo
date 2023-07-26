@@ -8,3 +8,5 @@ keywords: encuesta, ley federal del trabajo, mexico
 Nuestra **encuesta** está diseñada para proporcionarte una visión general de la situación legal de tu trabajo. No es un sustituto del asesoramiento legal profesional, pero te puede dar una idea de si estás en una situación que requiere mayor atención.
 
 *Nota: Esta encuesta es completamente anónima y la información proporcionada será utilizada únicamente con fines estadísticos.*
+
+::disclaimer

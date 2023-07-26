@@ -19,5 +19,4 @@ El aguinaldo es una prestación que ayuda a los trabajadores a cubrir los gastos
 
 Recuerda que, además del trabajo, es importante tomar descansos para mantener un equilibrio en nuestras vidas. [Conoce más sobre tus descansos por ley](/articulos/como-funcionan-los-dias-de-descanso). Así que, ¡disfruta de tu aguinaldo y no olvides tomarte un tiempo para ti!
 
-*Nota: Este artículo es para fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre tus derechos laborales, te recomendamos que consultes a un abogado laboral.*
-
+::disclaimer

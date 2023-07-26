@@ -1,5 +1,6 @@
 import { CardDirective } from '~/components/markdown/directives'
 import {
+  DisclaimerDirective,
   LaboralRightsGridDirective,
   QuizDirective,
   VacationDaysTableDirective,
@@ -11,6 +12,7 @@ export const clientComponents = {
   'card': CardDirective,
 
   // page-specific
+  'disclaimer': DisclaimerDirective,
   'laboral-rights-grid': LaboralRightsGridDirective,
   'quiz': QuizDirective,
   'vacation-days-table': VacationDaysTableDirective,

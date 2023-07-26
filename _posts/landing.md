@@ -23,4 +23,4 @@ Si prefieres una revisión rápida, te invitamos a realizar nuestra encuesta tot
 
 Estamos dedicados a proporcionar información confiable y accesible sobre la legalidad del trabajo en México. Nuestra misión es ayudar a todos los trabajadores mexicanos a entender y proteger sus derechos laborales.
 
-*Nota: Si bien proporcionamos información basada en la legislación laboral de México, es importante que busques asesoría legal profesional si tienes dudas específicas o si enfrentas un problema laboral potencial.*
+::disclaimer[Si bien proporcionamos información basada en la legislación laboral de México, es importante que busques asesoría legal profesional si tienes dudas específicas o si enfrentas un problema laboral potencial.]

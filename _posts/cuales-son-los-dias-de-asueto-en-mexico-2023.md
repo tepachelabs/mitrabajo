@@ -30,4 +30,4 @@ Además de estos días, también hay algunos días festivos en los que puedes el
 - **2 de noviembre** - Día de los Muertos
 - **12 de diciembre** - Día de la Virgen de Guadalupe
 
-*Nota: Este artículo es para fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre tus derechos laborales, te recomendamos que consultes a un abogado laboral.*
+::disclaimer

@@ -27,4 +27,4 @@ El contrato de trabajo es un acuerdo entre el empleado y el empleador, en el que
 
 5. **Confidencialidad y cláusulas de no competencia**: Si el contrato incluye estas cláusulas, asegúrate de entenderlas bien. Estas pueden limitar tu capacidad para trabajar en ciertos lugares o industrias después de que termine tu contrato.
 
-*Nota: Este artículo es para fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre tus derechos laborales, te recomendamos que consultes a un abogado laboral.*
+::disclaimer

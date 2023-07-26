@@ -28,5 +28,4 @@ Las vacaciones son otro tipo de descanso que los trabajadores tienen derecho a d
 
 Los descansos, ya sean diarios, semanales o anuales, son esenciales para mantener un equilibrio entre el trabajo y la vida personal. Nos ayudan a recargar energías, a reducir el estrés y a aumentar nuestra productividad. Así que ya lo sabes, ¡no olvides tomar tus merecidos descansos!
 
-*Nota: Este artículo es para fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre tus derechos laborales, te recomendamos que consultes a un abogado laboral.*
-
+::disclaimer

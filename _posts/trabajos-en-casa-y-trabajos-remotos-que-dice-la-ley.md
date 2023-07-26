@@ -21,4 +21,4 @@ La ley también establece que los empleadores deben proporcionar el equipo neces
 
 Ya sea que trabajes en un lugar físico de trabajo o desde la comodidad de tu casa, tus derechos están protegidos por la Ley Federal del Trabajo. Así que, no importa dónde te encuentres, ¡siempre recuerda la importancia de tomar descansos y cuidar de tu bienestar!
 
-*Nota: Este artículo es para fines informativos y no sustituye el asesoramiento legal profesional. Si tienes dudas sobre tus derechos laborales, te recomendamos que consultes a un abogado laboral.*
+::disclaimer
