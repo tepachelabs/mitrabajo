@@ -4,7 +4,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Create a new `.env.local` file and add the following variables:
+
+```bash
+NEXT_PUBLIC_POSTHOG_KEY=<posthog-key>
+NEXT_PUBLIC_POSTHOG_HOST=<posthog-host>
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
