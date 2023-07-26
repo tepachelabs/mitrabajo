@@ -3,17 +3,18 @@ import { Metadata } from 'next'
 import { Markdown } from '~/components/markdown'
 import { Page } from '~/components/page'
 import { getPostBySlug } from '~/lib/api'
+import { getMetadata } from '~/lib/metadata'
 
 const slug = 'articulos'
 
 export async function generateMetadata (): Promise<Metadata> {
   const page = getPostBySlug(slug, ['title', 'content', 'description', 'keywords'])
 
-  return {
+  return getMetadata({
     title: page.title,
     description: page.description,
     keywords: page.keywords,
-  }
+  })
 }
 
 export default function PostHome () {
