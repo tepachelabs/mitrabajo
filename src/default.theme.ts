@@ -70,11 +70,13 @@ export const theme: Theme = {
       padding: 4,
     },
     compact: {
-      padding: 1,
-      display: 'inline-flex',
-      borderRadius: 2,
       border: '1px solid',
-      borderColor: 'muted',
+      borderColor: 'boxShadowColor',
+      borderRadius: 4,
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 2,
+      padding: 3,
     },
   },
   styles: {

@@ -1,7 +1,7 @@
 import { CardDirective } from '~/components/markdown/directives'
 import {
   DisclaimerDirective,
-  LaboralRightsGridDirective,
+  LaboralRightsGridDirective, MinimumWageMapDirective,
   QuizDirective,
   VacationDaysTableDirective,
 } from '~/components/markdown/directives/page-specific'
@@ -14,6 +14,7 @@ export const clientComponents = {
   // page-specific
   'disclaimer': DisclaimerDirective,
   'laboral-rights-grid': LaboralRightsGridDirective,
+  'minimum-wage-map': MinimumWageMapDirective,
   'quiz': QuizDirective,
   'vacation-days-table': VacationDaysTableDirective,
 }
