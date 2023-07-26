@@ -11,6 +11,7 @@ export async function generateMetadata (): Promise<Metadata> {
   const page = getPostBySlug(slug, ['title', 'content', 'description', 'keywords'])
 
   return getMetadata({
+    url: `/${ slug }`,
     title: page.title,
     description: page.description,
     keywords: page.keywords,

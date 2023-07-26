@@ -13,6 +13,7 @@ export async function generateMetadata ({ params }: { params: PageParameters }):
   const page = getPostBySlug(params.slug, ['title', 'content', 'description', 'keywords'])
 
   return getMetadata({
+    url: `/articulos/${ params.slug }`,
     title: page.title,
     description: page.description,
     keywords: page.keywords,
