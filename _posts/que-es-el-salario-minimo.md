@@ -1,5 +1,7 @@
 ---
 title: ¿Qué es el salario mínimo?
+description: El salario mínimo es la cantidad menor que debe recibir en efectivo el trabajador por los servicios prestados en una jornada de trabajo. Descubre por qué es importante el salario mínimo y cómo se determina en México.
+keywords: salario mínimo, ley federal del trabajo, mexico
 ---
 Según la [Ley Federal del Trabajo](/ley-federal-del-trabajo) en su artículo 90, el salario mínimo es la cantidad menor que debe recibir en efectivo el trabajador por los servicios prestados en una jornada de trabajo. Pero, no se trata de cualquier cantidad, debe ser suficiente para satisfacer las necesidades normales de la vida del trabajador, su educación y sus obligaciones de proveer a su familia.
 

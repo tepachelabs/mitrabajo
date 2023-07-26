@@ -1,5 +1,7 @@
 ---
 title: ¿Es Legal Mi Trabajo?
+description: ¿Es legal tu trabajo? Te ayudamos a entender la legalidad de tu trabajo en México.
+keywords: ley federal del trabajo, mexico, imss, vacaciones, dias asueto, salario minimo
 ---
 Te ayudamos a entender la legalidad de tu trabajo en México. Nos basamos en la Constitución Política de los Estados Unidos Mexicanos y la [Ley Federal del Trabajo](/ley-federal-del-trabajo) para brindarte información precisa y confiable.
 

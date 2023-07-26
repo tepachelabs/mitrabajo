@@ -1,5 +1,7 @@
 ---
 title: ¿Qué es la Ley del Seguro Social en México?
+description: La Ley del Seguro Social es una legislación que establece y regula los beneficios de seguridad social a los que tienen derecho los trabajadores y sus familias en México. Aprende cuáles son tus derechos.
+keywords: ley del seguro social, imss, mexico
 ---
 La Ley del Seguro Social es una legislación que establece y regula los beneficios de seguridad social a los que tienen derecho los trabajadores y sus familias en México. Esta ley se encarga de administrar una serie de seguros para los trabajadores, incluyendo seguros de enfermedades y maternidad, riesgos de trabajo, invalidez y vida, retiro, cesantía en edad avanzada y vejez, así como el seguro de guarderías y prestaciones sociales.
 

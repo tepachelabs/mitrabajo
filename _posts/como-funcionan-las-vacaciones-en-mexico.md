@@ -1,5 +1,7 @@
 ---
 title: ¿Cómo funcionan las vacaciones en México?
+description: Aunque el trabajo es importante, también lo son los descansos. La ley mexicana establece que todos los trabajadores tienen derecho a un periodo anual de vacaciones pagadas. Descubre cuántos días de vacaciones te corresponden y cómo funcionan.
+keywords: vacaciones, descanso, ley federal del trabajo, mexico
 ---
 Aunque el trabajo es importante, también lo son los descansos. Un buen descanso nos ayuda a mantenernos sanos, a aumentar nuestra productividad y a mejorar nuestro bienestar general. ¡Así que no olvides tomarte un tiempo para ti!
 
@@ -27,7 +29,7 @@ No te pueden obligar a tomar tus vacaciones.
 
 ## ¿Qué hacer si no te permiten tomar tus vacaciones?
 
-En caso de que tu patrón exponga excusas o no te permita tomar tus vacaciones puedes acudir a la Procuraduría Federal de la Defensa del Trabajo ([PROFEDET](https://www.gob.mx/profedet)) para recibir asesoría sobre cómo proceder.
+En caso de que tu patrón exponga excusas o no te permita tomar tus vacaciones puedes acudir a la Procuraduría Federal de la Defensa del Trabajo ([PROFEDET](https://www.gob.mx/profedet)) para recibir asesoría sobre cómo proceder. Aquí te dejamos un artículo sobre [cómo proceder si sospechas que tu trabajo no es legal](/articulos/pasos-a-seguir-si-sospechas-que-tu-trabajo-no-es-legal).
 
 ## En resumen
 

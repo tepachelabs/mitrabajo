@@ -1,5 +1,7 @@
 ---
 title: Ley Federal del Trabajo
+description: La Ley Federal del Trabajo de México es un conjunto de regulaciones que rigen las relaciones laborales entre los trabajadores y los empleadores en México. Descubre cuáles son tus derechos laborales.
+keywords: ley federal del trabajo, mexico
 ---
 La Ley Federal del Trabajo de México es un conjunto de regulaciones que rigen las relaciones laborales entre los trabajadores y los empleadores en México. Esta ley establece los derechos y responsabilidades de los trabajadores y empleadores, y proporciona orientación en áreas como contratos de trabajo, jornadas laborales, salarios, condiciones de trabajo, seguridad y salud en el trabajo, y la resolución de conflictos laborales.
 

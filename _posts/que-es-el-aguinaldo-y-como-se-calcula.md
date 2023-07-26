@@ -1,5 +1,7 @@
 ---
 title: ¿Qué es el aguinaldo y cómo se calcula?
+description: El aguinaldo es una prestación que los trabajadores reciben de sus empleadores al final de cada año. Te explicamos qué es el aguinaldo, cómo se calcula y por qué es importante.
+keywords: aguinaldo, ley federal del trabajo, mexico
 ---
 El aguinaldo es una gratificación que los trabajadores reciben de sus empleadores al final de cada año. Esta prestación está establecida en la [Ley Federal del Trabajo](/ley-federal-del-trabajo) en su artículo 87, y es una obligación que todos los empleadores deben cumplir, sin importar si el trabajador es permanente, temporal, de planta, de confianza, de base, sindicalizado o no sindicalizado.
 

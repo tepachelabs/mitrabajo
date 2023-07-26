@@ -1,5 +1,7 @@
 ---
 title: ¿Qué es un contrato de trabajo y en qué debo fijarme antes de firmar uno?
+description: El contrato de trabajo es un acuerdo entre el empleado y el empleador, en el que se establecen los derechos y obligaciones de cada uno. Aprende qué debe contener un contrato de trabajo y en qué debes fijarte antes de firmar uno.
+keywords: contrato de trabajo, ley federal del trabajo, mexico
 ---
 El contrato de trabajo es un acuerdo entre el empleado y el empleador, en el que se establecen los derechos y obligaciones de cada uno. Según el artículo 20 de la [Ley Federal del Trabajo](/ley-federal-del-trabajo), el contrato de trabajo debe contener al menos:
 

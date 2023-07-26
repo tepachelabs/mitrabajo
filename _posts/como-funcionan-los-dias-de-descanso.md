@@ -1,5 +1,7 @@
 ---
 title: ¿Cómo funcionan los días de descanso en México?
+description: En México, los trabajadores tienen derecho a disfrutar de al menos un día de descanso por cada seis días de trabajo. Descubre cómo funcionan los días de descanso y por qué son importantes.
+keywords: descanso, asueto, ley federal del trabajo, mexico
 ---
 De acuerdo con la [Ley Federal del Trabajo](/ley-federal-del-trabajo) en su artículo 69, los trabajadores tienen derecho a disfrutar de al menos un día de descanso por cada seis días de trabajo. Esto significa que, como regla general, debes tener un día de descanso a la semana.
 
@@ -15,6 +17,8 @@ Los días de asueto son los días festivos o feriados en los que los trabajadore
 - Tercer lunes de noviembre en conmemoración del 20 de noviembre
 - 1° de diciembre de cada seis años, cuando corresponda a la transmisión del Poder Ejecutivo Federal
 - 25 de diciembre
+
+También ver: [¿Cuáles son los días de asueto en México para 2023?](/articulos/cuales-son-los-dias-de-asueto-en-mexico-2023)
 
 ## ¿Y las vacaciones?
 

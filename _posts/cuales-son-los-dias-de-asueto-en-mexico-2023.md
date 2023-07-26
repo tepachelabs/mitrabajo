@@ -1,5 +1,7 @@
 ---
 title: ¿Cuáles son los días de asueto en México para 2023?
+description: En México, hay varios días feriados durante el año en los que, según la Ley Federal del Trabajo, no se labora. Descubre cuáles son los días de asueto para 2023.
+keywords: descanso, asueto, ley federal del trabajo, mexico
 ---
 Si estás planeando tu calendario para 2023, es importante que conozcas cuáles serán los días de **descanso** o **asueto**. En México, hay varios días **feriados** durante el año en los que, según la [Ley Federal del Trabajo](/ley-federal-del-trabajo), no se labora.
 

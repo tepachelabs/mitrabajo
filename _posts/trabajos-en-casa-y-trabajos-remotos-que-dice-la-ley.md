@@ -1,5 +1,7 @@
 ---
 title: "Trabajos en casa y trabajos remotos: ¿Qué dice la ley?"
+description: "¿Sabías que en México existen leyes que regulan el trabajo en casa y el trabajo remoto? Descubre cuáles son tus derechos laborales."
+keywords: trabajo en casa, trabajo remoto, ley federal del trabajo, mexico
 ---
 Vamos a hablar de una modalidad de trabajo que ha tomado mucha relevancia en los últimos años, estamos hablando del **trabajo en casa** y el **trabajo remoto**. ¿Sabías que en México existen leyes que regulan estas formas de trabajo? ¡Sí, así es! Y hoy vamos a explorarlas.
 

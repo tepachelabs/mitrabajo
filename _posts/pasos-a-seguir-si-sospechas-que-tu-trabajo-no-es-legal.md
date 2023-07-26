@@ -1,5 +1,7 @@
 ---
 title: Pasos a seguir si sospechas que tu trabajo no es legal
+description: ¿Crees que tu trabajo no es legal? Descubre qué puedes hacer si sospechas que tu empleo no cumple con la Ley Federal del Trabajo en México.
+keywords: ley federal del trabajo, mexico
 ---
 En México, la Ley Federal del Trabajo establece los derechos y responsabilidades de los empleadores y los empleados. Si sospechas que tu trabajo no es legal, es importante actuar de manera informada y buscar ayuda. Aquí te dejamos algunos pasos que puedes seguir:
 
