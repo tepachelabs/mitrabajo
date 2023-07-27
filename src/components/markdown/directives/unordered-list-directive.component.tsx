@@ -5,7 +5,7 @@ import { Box } from 'theme-ui'
 
 const styles = {
   ul: {
-    pl: [3, 4],
+    pl: 4,
     pb: 3,
   },
 }

@@ -14,7 +14,7 @@ const styles = {
     listStyleType: `"${ decoration }"`,
     paddingInlineStart: '1ch',
     '&::marker': {
-      color: 'primary',
+      color: 'complementary',
       fontWeight: 'bold',
     },
   }),

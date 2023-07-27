@@ -12,7 +12,7 @@ interface Props {
 
 const styles = {
   ul: {
-    pl: [3, 4],
+    pl: 4,
   },
   li: (decoration: string) => ({
     mb: 2,
