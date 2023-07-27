@@ -4,10 +4,13 @@ import Link from 'next/link'
 import { FC, ReactNode } from 'react'
 import { Flex, Grid, Heading, Link as TuiLink, Paragraph, ThemeUIStyleObject } from 'theme-ui'
 
+import { ToTop } from '~/components/to-top/to-top.component'
+
 interface Props {
   children: ReactNode
   title?: string;
-  showGoHome?: boolean;
+  showGoArticles?: boolean;
+  showGoToTop?: boolean;
 }
 
 const styles: Record<string, ThemeUIStyleObject> = {
@@ -75,7 +78,7 @@ const navItems = [
   { label: 'LFT', href: '/ley-federal-del-trabajo' },
 ]
 
-export const Page: FC<Props> = ({ children, showGoHome, title }) => {
+export const Page: FC<Props> = ({ children, showGoArticles, showGoToTop = true, title }) => {
   return (
     <Grid sx={ styles.grid }>
       <Flex sx={ styles.header }>
@@ -93,7 +96,9 @@ export const Page: FC<Props> = ({ children, showGoHome, title }) => {
       <Grid sx={ styles.body }>
         { title && <Heading as='h1' mb={ 4 }>{ title }</Heading> }
         { children }
-        { showGoHome && <TuiLink as={ Link } href='/' sx={ styles.backLink }>Volver al Inicio 🏠</TuiLink> }
+        { showGoArticles &&
+          <TuiLink as={ Link } href='/articulos' sx={ styles.backLink }>&lt; Ir a la lista de artículos</TuiLink> }
+        { showGoToTop && <ToTop /> }
       </Grid>
 
       <Flex as='footer' sx={ styles.footer }>

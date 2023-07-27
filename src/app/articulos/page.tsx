@@ -22,7 +22,7 @@ export default function PostHome () {
   const page = getPostBySlug(slug, ['title', 'content'])
 
   return (
-    <Page title={ page.title } showGoHome>
+    <Page title={ page.title }>
       <Markdown content={ page.content }/>
     </Page>
   )

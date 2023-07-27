@@ -24,7 +24,7 @@ export default function Slug ({ params }: { params: PageParameters }) {
   const page = getPostBySlug(params.slug, ['title', 'content'])
 
   return (
-    <Page title={ page.title } showGoHome>
+    <Page title={ page.title } showGoArticles>
       <Markdown content={ page.content }/>
     </Page>
   )
