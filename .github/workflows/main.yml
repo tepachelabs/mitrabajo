@@ -61,7 +61,7 @@ jobs:
         uses: Ilshidur/action-discord@master
         if: always()
         with:
-          args: 'Action finished on https://github.com/${{github.repository}}. Status: {{ job.status }}'
+          args: 'Action: {{ GITHUB_ACTION }} finished on {{EVENT_PAYLOAD.repository.full_name}}'
       - name: send telegram message
         uses: appleboy/telegram-action@master
         if: always()
@@ -70,7 +70,7 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
             ✅ *A build/deploy job finished*
-            ▶️ *Status: {{job.status}}*
+            ▶️ *Status: ${{ job.status }}*
             #️⃣ Run # ${{github.run_number}}. Event type: *${{ github.event_name }}*
             🤡 Developer: *${{github.actor}}*
             💬 Commit message: ${{ github.event.commits[0].message }}
