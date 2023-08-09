@@ -48,3 +48,24 @@ jobs:
           app: "${{ vars.APP_NAME }}"
           token: "${{ secrets.APP_TOKEN }}"
           image: ${{ env.IMAGE_URL }}
+
+  notify:
+    name: Notify
+    needs: [ build ]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: send telegram message on push
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            ✅ *A build/deploy job has been completed.*
+            #️⃣ Run # ${{github.run_number}}. Event type: *${{ github.event_name }}*
+            🤡 Developer: *${{github.actor}}*
+            💬 Commit message: ${{ github.event.commits[0].message }}
+            🔗 Href: https://github.com/${{github.repository}}
+            ✨ See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+          format: markdown
+          disable_web_page_preview: "True"
