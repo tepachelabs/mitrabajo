@@ -61,7 +61,7 @@ jobs:
         uses: Ilshidur/action-discord@master
         if: always()
         with:
-          args: 'Action: {{ GITHUB_ACTION }} finished on {{EVENT_PAYLOAD.repository.full_name}}'
+          args: 'Action finished on {{EVENT_PAYLOAD.repository.full_name}}'
       - name: send telegram message
         uses: appleboy/telegram-action@master
         if: always()
