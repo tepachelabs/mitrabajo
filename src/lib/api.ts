@@ -9,6 +9,7 @@ const fileExclusions = [
   'articulos.md',
   'ley-federal-del-trabajo.md',
   'test.md',
+  'contribuir.md',
 ]
 
 function getPostSlugs () {
