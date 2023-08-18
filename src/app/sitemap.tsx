@@ -16,13 +16,13 @@ export default function sitemap (): MetadataRoute.Sitemap {
       url: `https://eslegalmitrabajo.com/${ slug }`,
       lastModified: new Date().toISOString(),
       priority: 1,
-      changeFrequency: 'monthly',
+      changeFrequency: 'monthly' as 'monthly',
     })),
     ...pages.map(({ slug }) => ({
       url: `https://eslegalmitrabajo.com/articulos/${ slug }`,
       lastModified: new Date().toISOString(),
       priority: 1,
-      changeFrequency: 'monthly',
+      changeFrequency: 'monthly' as 'monthly',
     })),
   ]
 }
