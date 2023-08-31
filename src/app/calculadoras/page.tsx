@@ -8,7 +8,7 @@ import { ListWrapper, ListItemWrapper} from '~/components/post-list'
 
 const CalculatorsPage = () => {
   return (
-    <Page title="Calcultadoras">
+    <Page title="Calculadoras">
       <ListWrapper>
         <ListItemWrapper>
           <TuiLink as={ Link } href="/calculadoras/aguinaldo">
