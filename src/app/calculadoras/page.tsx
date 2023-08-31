@@ -1,20 +1,23 @@
+'use client'
+
+import Link from 'next/link'
+import { Link as TuiLink, Text } from 'theme-ui'
+
 import {Page} from '~/components/page'
-import {PostsList} from '~/components/post-list'
+import { ListWrapper, ListItemWrapper} from '~/components/post-list'
 
 const CalculatorsPage = () => {
   return (
     <Page title="Calcultadoras">
-      <PostsList
-        posts={[
-          {
-            content: 'Aguinaldo',
-            title: 'Aguinaldo',
-            keywords: 'Aguinaldo',
-            slug: 'aguinaldo',
-            description: 'Calculadora para obtener aguinaldo.',
-          },
-        ]}
-      />
+      <ListWrapper>
+        <ListItemWrapper>
+          <TuiLink as={ Link } href="/calculadoras/aguinaldo">
+            <Text>
+              Aguinaldo
+            </Text>
+          </TuiLink>
+        </ListItemWrapper>
+      </ListWrapper>
     </Page>
   )
 }
