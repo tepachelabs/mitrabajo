@@ -77,6 +77,7 @@ const navItems = [
   { label: 'Artículos', href: '/articulos' },
   { label: 'LFT', href: '/ley-federal-del-trabajo' },
   { label: 'Contribuir', href: '/contribuir' },
+  { label: 'Calculadoras', href: '/calculadoras' },
 ]
 
 export const Page: FC<Props> = ({ children, showGoArticles, showGoToTop = true, title }) => {
