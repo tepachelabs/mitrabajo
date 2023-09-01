@@ -20,6 +20,13 @@ const AguinaldoCalculatorPage = () => {
 
   const [wasSubmitted, setWasSubmitted] = useState(false)
   const [expectedAguinaldo, setExpectedAguinaldo] = useState(0)
+  const [showingWorkingDays, setShowingWorkingDays] = useState(0)
+
+  const workedDays = firstWorkDayDate
+    ? daysPassedSinceDate(firstWorkDayDate)
+    : 0
+
+  const isSubmittedDisabled = workedDays < 0 || firstWorkDayDate === null
 
   const handleFirstDayOfWorkChange = (date: Date | null) => {
     setFirstWorkDayDate(date)
@@ -43,15 +50,10 @@ const AguinaldoCalculatorPage = () => {
       ? ONE_YEAR_IN_DAYS
       : workedDays
 
-    setExpectedAguinaldo(calculateAguinaldo(cleanMoneyFormat(grossSalary), fixedWorkedDays, aguinaldoDays))
     setWasSubmitted(true)
+    setShowingWorkingDays(workedDays)
+    setExpectedAguinaldo(calculateAguinaldo(cleanMoneyFormat(grossSalary), fixedWorkedDays, aguinaldoDays))
   }
-
-  const workedDays = firstWorkDayDate
-    ? daysPassedSinceDate(firstWorkDayDate)
-    : 0
-
-  const isSubmittedDisabled = workedDays < 0 || firstWorkDayDate === null
 
   return (
     <Page title="Calcula tu aguinaldo">
@@ -92,6 +94,9 @@ const AguinaldoCalculatorPage = () => {
             cursor: 'default',
             backgroundColor: 'gray',
           },
+          ':active': {
+            opacity: 0.7,
+          },
         }}
         disabled={isSubmittedDisabled}
         onClick={handleCalculateClick}
@@ -103,13 +108,13 @@ const AguinaldoCalculatorPage = () => {
         wasSubmitted ? (
           <>
             <Paragraph>
-              A;o ya cumplido: {formatCurrency(expectedAguinaldo.toString())}
+              Año ya cumplido: {showingWorkingDays >= ONE_YEAR_IN_DAYS ? '✅' : '❌'}
             </Paragraph>
             <Paragraph>
-              Dias trabajados a la fecha de hoy: {workedDays}
+              Dias trabajados (a la fecha de hoy): {showingWorkingDays}
             </Paragraph>
             <Paragraph>
-              Aguinaldo esperado: {formatCurrency(expectedAguinaldo.toString())}
+              Aguinaldo esperado (al dia de hoy): {formatCurrency(expectedAguinaldo.toString())}
             </Paragraph>
             <Divider />
             <Paragraph>Siempre recuerde que</Paragraph>
