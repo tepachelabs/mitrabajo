@@ -5,66 +5,13 @@ import DatePicker from 'react-datepicker'
 import {Button, Divider, Input, Paragraph} from 'theme-ui'
 
 import {Page} from '~/components/page'
-
-const calculateAguinaldo = (grossSalary: number, daysWorked: number, aguinaldoDays: number): number => {
-  const proportionalAguinaldoDays = (aguinaldoDays / 365) * daysWorked
-  const baseDailySalary = grossSalary / 30.4 // Average days in a month
-
-  return baseDailySalary * proportionalAguinaldoDays
-}
-
-const daysPassedSinceDate = (targetDate: Date): number => {
-  const currentDate = new Date()
-  const timeDifference = currentDate.getTime() - targetDate.getTime()
-  return Math.floor(timeDifference / (1000 * 60 * 60 * 24))
-}
-
-const cleanMoneyFormat = (moneyString: string): number => {
-  const cleanedString = moneyString.replace(/[^0-9.]/g, '')
-
-  const numberValue = parseFloat(cleanedString)
-
-  if (!isNaN(numberValue)) {
-    return numberValue
-  } else {
-    return NaN
-  }
-}
-
-const formatNumber = (n: string): string => {
-  // format number 1000000 to 1,234,567
-  return n.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',')
-}
-
-const formatCurrency = (input: string, blur?: string): string => {
-  if (input === '') {
-    return input
-  }
-
-  if (input.indexOf('.') >= 0) {
-    const decimalPos = input.indexOf('.')
-
-    const leftSide = input.substring(0, decimalPos)
-    let rightSide = input.substring(decimalPos)
-
-    const formattedLeft = formatNumber(leftSide)
-
-    rightSide = formatNumber(rightSide)
-
-    if (blur === 'blur') {
-      rightSide += '00'
-    }
-
-    rightSide = rightSide.substring(0, 2)
-
-    return '$' + formattedLeft + '.' + rightSide
-  } else {
-    const formattedInput = formatNumber(input)
-    return '$' + formattedInput
-  }
-}
-
-const MINIMUM_AGUINALDO_DAYS_BY_MEXICAN_LAW = 15
+import {
+  formatCurrency,
+  calculateAguinaldo,
+  cleanMoneyFormat,
+  daysPassedSinceDate,
+} from '~/utils/calculators-utils'
+import {ONE_YEAR_IN_DAYS, MINIMUM_AGUINALDO_DAYS_BY_MEXICAN_LAW} from '~/utils/constants'
 
 const AguinaldoCalculatorPage = () => {
   const [firstWorkDayDate, setFirstWorkDayDate] = useState<Date | null>(null)
@@ -80,7 +27,7 @@ const AguinaldoCalculatorPage = () => {
 
   const handleGrossSalaryChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
-    setGrossSalary(formatCurrency(event.target.value))
+    setGrossSalary(formatCurrency(value))
   }
 
   const handleAguinaldoDaysChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -92,7 +39,11 @@ const AguinaldoCalculatorPage = () => {
   }
 
   const handleCalculateClick = () => {
-    setExpectedAguinaldo(calculateAguinaldo(cleanMoneyFormat(grossSalary), workedDays, aguinaldoDays))
+    const fixedWorkedDays = workedDays > ONE_YEAR_IN_DAYS
+      ? ONE_YEAR_IN_DAYS
+      : workedDays
+
+    setExpectedAguinaldo(calculateAguinaldo(cleanMoneyFormat(grossSalary), fixedWorkedDays, aguinaldoDays))
     setWasSubmitted(true)
   }
 
@@ -152,7 +103,10 @@ const AguinaldoCalculatorPage = () => {
         wasSubmitted ? (
           <>
             <Paragraph>
-              Dias trabajados: {workedDays}
+              A;o ya cumplido: {formatCurrency(expectedAguinaldo.toString())}
+            </Paragraph>
+            <Paragraph>
+              Dias trabajados a la fecha de hoy: {workedDays}
             </Paragraph>
             <Paragraph>
               Aguinaldo esperado: {formatCurrency(expectedAguinaldo.toString())}
@@ -169,7 +123,6 @@ const AguinaldoCalculatorPage = () => {
           </>
         ) : null
       }
-
     </Page>
   )
 }
