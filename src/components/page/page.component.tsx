@@ -76,6 +76,7 @@ const navItems = [
   { label: 'Inicio', href: '/' },
   { label: 'Artículos', href: '/articulos' },
   { label: 'LFT', href: '/ley-federal-del-trabajo' },
+  { label: 'Calculadoras', href: '/calculadoras' },
   { label: 'Contribuir', href: '/contribuir' },
 ]
 

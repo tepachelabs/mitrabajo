@@ -7,6 +7,8 @@ import { ThemeUIProvider } from 'theme-ui'
 
 import { theme } from '~/default.theme'
 
+import 'react-datepicker/dist/react-datepicker.css'
+
 if (typeof window !== 'undefined') {
   posthog.init(
     process.env.NEXT_PUBLIC_POSTHOG_KEY || '',

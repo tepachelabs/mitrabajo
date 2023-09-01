@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { FC } from 'react'
+import { FC, PropsWithChildren } from 'react'
 import { Box, Link as TuiLink, Text } from 'theme-ui'
 
 interface Props {
@@ -24,20 +24,32 @@ const styles = {
   }),
 }
 
+export const ListWrapper = ({children}: PropsWithChildren) => (
+  <Box as='ul' sx={ styles.ul }>
+    {children}
+  </Box>
+)
+
+export const ListItemWrapper = ({children, decoration = '•'}: PropsWithChildren & { decoration?: Props['decoration'] }) => (
+  <Box as='li' sx={ styles.li(decoration) }>
+    {children}
+  </Box>
+)
+
 export const PostsList: FC<Props> = ({ decoration = '•', posts, title }) => {
   return (
-    <Box as='ul' sx={ styles.ul }>
+    <ListWrapper>
       { title && <h4>{ title }</h4> }
 
       { posts.map((post) => (
-        <Box as='li' key={ post.slug } sx={ styles.li(decoration) }>
+        <ListItemWrapper key={ post.slug } decoration={decoration}>
           <TuiLink as={ Link } href={ `/articulos/${ post.slug }` }>
             <Text>
               { post.title }
             </Text>
           </TuiLink>
-        </Box>
+        </ListItemWrapper>
       )) }
-    </Box>
+    </ListWrapper>
   )
 }
