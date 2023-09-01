@@ -20,78 +20,45 @@ const daysPassedSinceDate = (targetDate: Date): number => {
 }
 
 const cleanMoneyFormat = (moneyString: string): number => {
-  // Remove any non-numeric characters except for the decimal point
   const cleanedString = moneyString.replace(/[^0-9.]/g, '')
 
-  // Parse the cleaned string as a float
   const numberValue = parseFloat(cleanedString)
 
-  // Check if it's a valid number
   if (!isNaN(numberValue)) {
     return numberValue
   } else {
-    // Handle the case where the input couldn't be parsed as a number
     return NaN
   }
 }
 
-/**
- * This function was obtained from https://codepen.io/559wade/pen/LRzEjj
- *
- * Adapted to typescript with ChatGPT
- *
- */
 const formatNumber = (n: string): string => {
   // format number 1000000 to 1,234,567
   return n.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 }
 
-/**
- * This function was obtained from https://codepen.io/559wade/pen/LRzEjj
- *
- * Adapted to typescript with ChatGPT
- *
- */
 const formatCurrency = (input: string, blur?: string): string => {
-  // appends $ to value, validates decimal side
-  // and puts cursor back in the right position.
-
-  // don't validate empty input
   if (input === '') {
     return input
   }
 
-  // check for decimal
   if (input.indexOf('.') >= 0) {
-    // get position of first decimal
-    // this prevents multiple decimals from
-    // being entered
     const decimalPos = input.indexOf('.')
 
-    // split number by decimal point
     const leftSide = input.substring(0, decimalPos)
     let rightSide = input.substring(decimalPos)
 
-    // add commas to left side of number
     const formattedLeft = formatNumber(leftSide)
 
-    // validate right side
     rightSide = formatNumber(rightSide)
 
-    // On blur make sure 2 numbers after decimal
     if (blur === 'blur') {
       rightSide += '00'
     }
 
-    // Limit decimal to only 2 digits
     rightSide = rightSide.substring(0, 2)
 
-    // join number by .
     return '$' + formattedLeft + '.' + rightSide
   } else {
-    // no decimal entered
-    // add commas to number
-    // remove all non-digits
     const formattedInput = formatNumber(input)
     return '$' + formattedInput
   }
