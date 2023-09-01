@@ -190,9 +190,19 @@ const AguinaldoCalculatorPage = () => {
             <Paragraph>
               Aguinaldo esperado: {formatCurrency(expectedAguinaldo.toString())}
             </Paragraph>
+            <Divider />
+            <Paragraph>Siempre recuerde que</Paragraph>
+            <ul>
+              <li>
+                El artículo 87 de la LFT establece que “los trabajadores tendrán derecho a
+                un aguinaldo anual que deberá pagarse antes del día 20 de diciembre,
+                equivalente a quince días de salario, por lo menos”
+              </li>
+            </ul>
           </>
         ) : null
       }
+
     </Page>
   )
 }
