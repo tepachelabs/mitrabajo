@@ -2,7 +2,7 @@
 import es from 'date-fns/locale/es'
 import {ChangeEvent, useState} from 'react'
 import DatePicker from 'react-datepicker'
-import {Text, Divider, Input, Button} from 'theme-ui'
+import {Text, Divider, Input, Button, Paragraph} from 'theme-ui'
 
 import {Page} from '~/components/page'
 
@@ -23,22 +23,39 @@ const moneyFormatter = Intl.NumberFormat('es-mx', {
   maximumFractionDigits: 2,
 })
 
+const MINIMUM_AGUINALDO_DAYS_BY_MEXICAN_LAW = 15
+
 const AguinaldoCalculatorPage = () => {
-  const [firstWorkDayDate, setFirstWorkDayDate] = useState<Date | null>(new Date())
+  const [firstWorkDayDate, setFirstWorkDayDate] = useState<Date | null>(null)
   const [grossSalary, setGrossSalary] = useState(0)
+  const [aguinaldoDays, setAguinaldoDays] = useState(MINIMUM_AGUINALDO_DAYS_BY_MEXICAN_LAW)
+
+  const [wasSubmitted, setWasSubmitted] = useState(false)
+  const [expectedAguinaldo, setExpectedAguinaldo] = useState(0)
 
   const handleGrossSalaryChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
     setGrossSalary(Number(value))
   }
 
+  const handleAguinaldoDaysChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value
+    setAguinaldoDays(Number(value))
+  }
+
+  const handleCalculateClick = () => {
+    setExpectedAguinaldo(calculateAguinaldo(grossSalary, workedDays, aguinaldoDays))
+    setWasSubmitted(true)
+  }
+
   const workedDays = firstWorkDayDate
     ? daysPassedSinceDate(firstWorkDayDate)
     : 0
 
+  const isSubmittedDisabled = workedDays < 0 || firstWorkDayDate === null
   return (
     <Page title="Calcula tu aguinaldo">
-      <Text>¿Cuándo empezaste a trabajar?</Text>
+      <Paragraph>¿Cuándo empezaste a trabajar?</Paragraph>
       <DatePicker
         locale={es}
         selected={firstWorkDayDate}
@@ -47,7 +64,7 @@ const AguinaldoCalculatorPage = () => {
         onChange={(newDate) => setFirstWorkDayDate(newDate)}
       />
       <Divider />
-      <Text>¿Cuál es tu sueldo bruto mensual?</Text>
+      <Paragraph>¿Cuál es tu sueldo bruto mensual?</Paragraph>
       <Input
         sx={{
           mb: 2,
@@ -56,14 +73,44 @@ const AguinaldoCalculatorPage = () => {
         value={grossSalary}
         onChange={handleGrossSalaryChange}
       />
-      <Button>Calcular</Button>
+      <Paragraph>¿Cuántos días de aguinaldo? (Mínimo por ley son 15)</Paragraph>
+      <Input
+        sx={{
+          mb: 2,
+        }}
+        type="text"
+        value={aguinaldoDays}
+        onChange={handleAguinaldoDaysChange}
+      />
+      <Button
+        sx={{
+          ':hover': {
+            cursor: 'pointer',
+          },
+          ':disabled': {
+            opacity: 0.7,
+            cursor: 'default',
+            backgroundColor: 'gray',
+          },
+        }}
+        disabled={isSubmittedDisabled}
+        onClick={handleCalculateClick}
+      >
+        Calcular
+      </Button>
       <Divider />
-      <Text>
-        Dias trabajados: {workedDays}
-      </Text>
-      <Text>
-        Aguinaldo esperado: {moneyFormatter.format(calculateAguinaldo(grossSalary, workedDays, 15))}
-      </Text>
+      {
+        wasSubmitted ? (
+          <>
+            <Paragraph>
+              Dias trabajados: {workedDays}
+            </Paragraph>
+            <Paragraph>
+              Aguinaldo esperado: {moneyFormatter.format(expectedAguinaldo)}
+            </Paragraph>
+          </>
+        ) : null
+      }
     </Page>
   )
 }
