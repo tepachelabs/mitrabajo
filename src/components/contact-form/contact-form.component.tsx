@@ -1,11 +1,29 @@
-import {useState} from 'react'
+import {useState, FormEvent} from 'react'
 import { Flex, Input, Button, Text, Heading } from 'theme-ui'
+
+import {isValidEmail} from '~/components/contact-form/is-valid-email'
 
 export const ContactForm = () => {
   const [email, setEmail] = useState('')
+  const [error, setError] = useState('')
 
-  const handleSubmit = () => {
+  const handleError = () => {
+    setError('Por favor, introduce una dirección de correo electrónico válida.')
+  }
+
+  const handleSuccess = () => {
     setEmail('')
+  }
+
+  const handleSubmit = (e: FormEvent) => {
+    e.preventDefault()
+
+    if (isValidEmail(email)) {
+      handleSuccess()
+      return
+    }
+
+    handleError()
   }
 
   return (
@@ -35,11 +53,11 @@ export const ContactForm = () => {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         sx={{
-          mb: 3,
+          mb: 1,
         }}
       />
+      {error && <Text sx={{ color: 'red', mb: 2 }}>{error}</Text>}
       <Button
-        type="submit"
         sx={{
           ':hover': {
             cursor: 'pointer',
