@@ -104,7 +104,7 @@ export const Page: FC<Props> = ({ children, showGoArticles, showGoToTop = true, 
       </Grid>
 
       <Flex as='footer' sx={ styles.footer }>
-        <Paragraph>Copyright &copy; 2023 TepacheLabs</Paragraph>
+        <Paragraph>Copyright &copy; 2024 TepacheLabs</Paragraph>
       </Flex>
     </Grid>
   )
