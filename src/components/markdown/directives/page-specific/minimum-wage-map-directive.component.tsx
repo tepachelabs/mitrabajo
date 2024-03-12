@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { FC, PropsWithChildren } from 'react'
 import { Box, Card, Flex, Link as TuiLink, Paragraph, ThemeUIStyleObject } from 'theme-ui'
 
-const source = 'https://www.gob.mx/stps/prensa/entran-en-vigor-salarios-minimos-2023-en-todo-el-pais'
+const source = 'https://www.dof.gob.mx/nota_detalle.php?codigo=5711066&fecha=12/12/2023#gsc.tab=0'
 
 const baseStyles: ThemeUIStyleObject = {
   opacity: 0.95,
@@ -67,13 +67,13 @@ export const MinimumWageMapDirective: FC<PropsWithChildren> = ({ children }) => 
         <Card variant='compact'>
           <Paragraph>
             <Box as='span' sx={ styles.purpleSquare }/>
-            Zona Libre: <b>$312.41</b>
+            Zona Libre: <b>$374.89</b>
           </Paragraph>
         </Card>
         <Card variant='compact'>
           <Paragraph>
             <Box as='span' sx={ styles.blueSquare }/>
-            Resto del país: <b>$207.44</b>
+            Resto del país: <b>$248.93</b>
           </Paragraph>
         </Card>
       </Flex>
@@ -103,7 +103,7 @@ export const MinimumWageMapDirective: FC<PropsWithChildren> = ({ children }) => 
       <Box>
         <Paragraph>
           Fuente: <TuiLink as={ Link } href={ source } target='_blank' rel="noopener noreferrer">
-          Comunicado de la Secretaría del Trabajo y Previsión Social
+          Diario Oficial de la Federación (DOF) resolución de salarios mínimos para 2024
           </TuiLink>
         </Paragraph>
       </Box>

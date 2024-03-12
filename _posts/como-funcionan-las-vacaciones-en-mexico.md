@@ -9,7 +9,7 @@ Aunque el trabajo es importante, también lo son los descansos. Un buen descanso
 
 La [Ley Federal del Trabajo en México](/ley-federal-del-trabajo) establece en su artículo 76 que todo empleado tiene derecho a un periodo anual de vacaciones pagadas, que no puede ser renunciable por ningún motivo.
 
-El número de días de vacaciones a los que tienes derecho depende de tu antigüedad en el trabajo.
+El número de días de vacaciones a los que tienes derecho depende de tu antigüedad en el trabajo. Conforme al artículo 81, el trabajador puede pedir sus vacaciones dentro de los seis meses siguientes al cumplimiento del año de servicios.
 
 ::vacation-days-table
 

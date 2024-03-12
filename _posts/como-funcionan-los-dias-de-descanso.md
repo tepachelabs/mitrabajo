@@ -18,7 +18,7 @@ Los días de asueto son los días festivos o feriados en los que los trabajadore
 - 1° de diciembre de cada seis años, cuando corresponda a la transmisión del Poder Ejecutivo Federal
 - 25 de diciembre
 
-También ver: [¿Cuáles son los días de asueto en México para 2023?](/articulos/cuales-son-los-dias-de-asueto-en-mexico-2023)
+También ver: [¿Cuáles son los días de asueto en México para 2024?](/articulos/cuales-son-los-dias-de-asueto-en-mexico-2024)
 
 ## ¿Y las vacaciones?
 

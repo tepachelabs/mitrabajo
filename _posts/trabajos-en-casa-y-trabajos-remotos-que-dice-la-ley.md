@@ -17,6 +17,10 @@ En diciembre de 2020, se reformó la [Ley Federal del Trabajo en México](/ley-f
 
 La ley también establece que los empleadores deben proporcionar el equipo necesario para realizar el trabajo (como computadoras y conexión a Internet), y pagar los gastos relacionados con el trabajo, como la electricidad y la conexión a Internet.
 
+Así mismo en el 2021, se reformó la LFT para añadir el capítulo sobre “Teletrabajo”:
+
+En el artículo 330-A se establece que el teletrabajo es una forma de organización laboral subordinada que consiste en el desempeño de actividades remuneradas, en lugares distintos al establecimiento o establecimientos del patrón, por lo que no se requiere la presencia física de la persona trabajadora bajo la modalidad de teletrabajo, en el centro de trabajo, utilizando primordialmente las tecnologías de la información y comunicación, para el contacto y mando entre la persona trabajadora bajo la modalidad de teletrabajo y el patrón.
+
 ## En resumen
 
 Ya sea que trabajes en un lugar físico de trabajo o desde la comodidad de tu casa, tus derechos están protegidos por la Ley Federal del Trabajo. Así que, no importa dónde te encuentres, ¡siempre recuerda la importancia de tomar descansos y cuidar de tu bienestar!

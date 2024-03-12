@@ -21,6 +21,8 @@ Una vez que hayas recopilado la evidencia, es aconsejable buscar asesoría legal
 
 Si se determina que tus derechos han sido violados, puedes presentar una queja ante la Secretaría del Trabajo y Previsión Social (STPS). Puedes encontrar más información sobre cómo presentar una queja en su [página web oficial](https://www.gob.mx/stps).
 
+Si vives en el interior de la República, este es el [directorio de los enlaces de la STPS en tu entidad](https://www.stps.gob.mx/gobmx/masinfo/directorioAgencias.html).
+
 ## Paso 5: Mantener la comunicación
 
 Mantén la comunicación con tu asesor legal y con la STPS durante el proceso de resolución de tu queja. Recuerda mantener un registro de todas las comunicaciones y acciones realizadas.
