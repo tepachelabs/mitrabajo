@@ -21,6 +21,10 @@ yarn dev
 pnpm dev
 ```
 
+## Todo
+
+- Add Doppler.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Copyright &copy; 2024 TepacheLabs
