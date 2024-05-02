@@ -7,7 +7,8 @@ import { Box, Button, Card, Flex, Heading, Link as TuiLink, Paragraph, Text, The
 
 import { SafeMarkdown } from '~/components/markdown/safe-markdown.component'
 
-import { isMyJobLegal, Quiz } from './quiz.data'
+import type { Quiz } from './quiz.data'
+import { isMyJobLegal } from './quiz.data'
 
 const styles: Record<string, ThemeUIStyleObject> = {
   heading: {
