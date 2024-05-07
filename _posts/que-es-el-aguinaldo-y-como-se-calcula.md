@@ -5,6 +5,8 @@ keywords: aguinaldo, ley federal del trabajo, mexico
 ---
 El aguinaldo es una gratificación que los trabajadores reciben de sus empleadores al final de cada año. Esta prestación está establecida en la [Ley Federal del Trabajo](/ley-federal-del-trabajo) en su artículo 87, y es una obligación que todos los empleadores deben cumplir, sin importar si el trabajador es permanente, temporal, de planta, de confianza, de base, sindicalizado o no sindicalizado.
 
+::contacto-inicial
+
 ## ¿Cómo se calcula el aguinaldo?
 
 Según la Ley Federal del Trabajo, los trabajadores deben recibir como mínimo el equivalente a 15 días de salario. Si has trabajado con tu empleador todo el año, recibirás el aguinaldo completo. Pero, ¿y si no has trabajado todo el año con el mismo empleador? En este caso, tienes derecho a recibir una parte proporcional del aguinaldo.

@@ -15,6 +15,8 @@ El contrato de trabajo es un acuerdo entre el empleado y el empleador, en el que
 - La indicación de que el trabajador será capacitado o adiestrado en los términos de los planes y programas establecidos en la empresa.
 - Otras condiciones de trabajo, tales como días de descanso, vacaciones y demás que convengan el trabajador y el patrón.
 
+::contacto-inicial
+
 ## ¿En qué debo fijarme antes de firmar un contrato de trabajo?
 
 1. **Condiciones laborales**: Asegúrate de que el contrato detalle las condiciones de tu trabajo, incluyendo tus responsabilidades, horario, y lugar de trabajo.

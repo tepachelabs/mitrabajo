@@ -7,6 +7,8 @@ Si estás planeando tu calendario para 2024, es importante que conozcas cuáles 
 
 La importancia del descanso no puede ser subestimada. Tomar tiempo libre del trabajo es crucial para nuestro bienestar físico y mental. Nos permite relajarnos, recargar energías y volver al trabajo con un renovado enfoque y productividad. Ahora, ¡veamos esos días de asueto para 2024!
 
+::contacto-inicial
+
 ## Días de asueto obligatorios en México para 2024
 
 - **1 de enero** - Año Nuevo

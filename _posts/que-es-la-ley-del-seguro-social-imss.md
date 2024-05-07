@@ -5,6 +5,8 @@ keywords: ley del seguro social, imss, mexico
 ---
 La Ley del Seguro Social es una legislación que establece y regula los beneficios de seguridad social a los que tienen derecho los trabajadores y sus familias en México. Esta ley se encarga de administrar una serie de seguros para los trabajadores, incluyendo seguros de enfermedades y maternidad, riesgos de trabajo, invalidez y vida, retiro, cesantía en edad avanzada y vejez, así como el seguro de guarderías y prestaciones sociales.
 
+::contacto-inicial
+
 El Instituto Mexicano del Seguro Social (IMSS), la institución encargada de aplicar esta ley, tiene el objetivo de garantizar el derecho a la salud, la asistencia médica, la protección de los medios de subsistencia y los servicios sociales necesarios para el bienestar individual y colectivo, así como el otorgamiento de una pensión que, en su caso y previo cumplimiento de los requisitos legales, será garantizada por el Estado, según lo establecido en el [artículo 2 de la Ley del Seguro Social](https://www.imss.gob.mx/sites/all/statics/pdf/leyes/LSS.pdf).
 
 Aquí puedes consultar la [última reforma](https://www.dof.gob.mx/nota_detalle.php?codigo=5677514&fecha=20/01/2023#gsc.tab=0) hecha a esta ley.

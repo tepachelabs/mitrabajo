@@ -5,6 +5,8 @@ keywords: trabajo en casa, trabajo remoto, ley federal del trabajo, mexico
 ---
 Vamos a hablar de una modalidad de trabajo que ha tomado mucha relevancia en los últimos años, estamos hablando del **trabajo en casa** y el **trabajo remoto**. ¿Sabías que en México existen leyes que regulan estas formas de trabajo? ¡Sí, así es! Y hoy vamos a explorarlas.
 
+::contacto-inicial
+
 ## ¿Qué dice la Ley Federal del Trabajo?
 
 Los trabajadores que realizan sus actividades en casa o de forma remota tienen los mismos derechos y obligaciones que aquellos que trabajan en un lugar físico de trabajo. Así que, si trabajas desde casa o de forma remota, ¡tus derechos están protegidos por la ley!

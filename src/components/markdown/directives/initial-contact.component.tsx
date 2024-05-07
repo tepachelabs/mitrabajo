@@ -23,9 +23,9 @@ export const InitialContactBanner: FC<Props> = () => {
         <Heading as="h2" variant="banner">Asesoría Legal Gratuita 🧑‍⚖️</Heading>
         <Paragraph>
           No dejes que las dudas laborales te quiten el sueño.<br/>
-          Completa nuestro formulario y un experto se pondrá en contacto contigo.<br/>
-          Haz click aquí.
+          Completa nuestro formulario y un experto se pondrá en contacto contigo.
         </Paragraph>
+        <Paragraph>👉 Haz click aquí 👈</Paragraph>
       </Card>
     </TuiLink>
   )

@@ -9,6 +9,8 @@ En México, la Ley Federal del Trabajo establece los derechos y responsabilidade
 
 Según la [Ley Federal del Trabajo](/ley-federal-del-trabajo), tienes derecho a condiciones justas y seguras de trabajo, así como a un salario justo. Es importante conocer y entender tus derechos para poder identificar si están siendo infringidos.
 
+::contacto-inicial
+
 ## Paso 2: Recopila evidencia
 
 Si sospechas que tus derechos están siendo violados, trata de recopilar cualquier evidencia posible. Esto puede incluir contratos, recibos de pago, registros de horas trabajadas, comunicaciones con tu empleador, entre otros.
