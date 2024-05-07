@@ -16,9 +16,11 @@ const styles = {
   },
 }
 
+const targetUrl = '/contacto-inicial?utm_source=eslegalmitrabajo.com&utm_campaign=initial-contact-banner'
+
 export const InitialContactBanner: FC<Props> = () => {
   return (
-    <TuiLink as={ Link } href="/contacto-inicial">
+    <TuiLink as={ Link } href={ targetUrl }>
       <Card sx={ styles.card } variant="banner">
         <Heading as="h2" variant="banner">Asesoría Legal Gratuita 🧑‍⚖️</Heading>
         <Paragraph>
