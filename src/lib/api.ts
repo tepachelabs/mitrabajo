@@ -10,6 +10,7 @@ const fileExclusions = [
   'ley-federal-del-trabajo.md',
   'test.md',
   'contribuir.md',
+  'contacto-inicial.md',
 ]
 
 function getPostSlugs () {
