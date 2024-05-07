@@ -58,6 +58,10 @@ export const theme: Theme = {
       textFillColor: 'transparent',
       width: 'fit-content',
     },
+    banner: {
+      color: 'background',
+      textFillColor: 'initial',
+    },
   },
   cards: {
     primary: {
@@ -77,6 +81,15 @@ export const theme: Theme = {
       flexDirection: 'column',
       gap: 2,
       padding: 3,
+    },
+    banner: {
+      background: `linear-gradient(90deg, ${ primaryColor } 5%, ${ complementaryColor } 100%)`,
+      borderRadius: 4,
+      color: 'background',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 3,
+      padding: 4,
     },
   },
   styles: {

@@ -5,6 +5,8 @@ keywords: salario mínimo, ley federal del trabajo, mexico
 ---
 Según la [Ley Federal del Trabajo](/ley-federal-del-trabajo) en su artículo 90, el salario mínimo es la cantidad menor que debe recibir en efectivo el trabajador por los servicios prestados en una jornada de trabajo. Debe ser suficiente para satisfacer las necesidades normales de la vida del trabajador, su educación y sus obligaciones de proveer a su familia.
 
+::contacto-inicial
+
 ## ¿Cómo se determina el salario mínimo en México?
 
 El salario mínimo en México se determina cada año por la Comisión Nacional de los Salarios Mínimos ([CONASAMI](https://www.gob.mx/conasami)), de acuerdo con lo establecido en la Ley Federal del Trabajo. Para hacerlo, considera factores como el costo de vida, la inflación, las condiciones de la economía y las necesidades de los trabajadores y sus familias.

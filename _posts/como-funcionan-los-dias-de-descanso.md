@@ -5,6 +5,8 @@ keywords: descanso, asueto, ley federal del trabajo, mexico
 ---
 De acuerdo con la [Ley Federal del Trabajo](/ley-federal-del-trabajo) en su artículo 69, los trabajadores tienen derecho a disfrutar de al menos un día de descanso por cada seis días de trabajo. Esto significa que, como regla general, debes tener un día de descanso a la semana.
 
+::contacto-inicial
+
 ## ¿Qué son los días de asueto?
 
 Los días de asueto son los días festivos o feriados en los que los trabajadores tienen derecho a descansar sin que esto implique una reducción de su salario. En México, la Ley Federal del Trabajo establece en su artículo 74 que los días de asueto son:

@@ -7,6 +7,8 @@ Los derechos laborales en México son un conjunto de normas legales que regulan 
 
 Aquí te resumimos tus derechos laborales en México. Para más detalle, no olvides consultar la [Ley Federal del Trabajo](/ley-federal-del-trabajo).
 
+::contacto-inicial
+
 ## 💸 Derecho a un salario
 
 Toda persona que trabaje tiene derecho a recibir un [salario mínimo](/articulos/que-es-el-salario-minimo). Este salario debe ser suficiente para satisfacer las necesidades normales de una cabeza de familia, en el orden material, social y cultural, y para proveer a la educación obligatoria de los hijos.

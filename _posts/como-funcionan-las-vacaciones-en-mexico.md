@@ -5,6 +5,8 @@ keywords: vacaciones, descanso, ley federal del trabajo, mexico
 ---
 Aunque el trabajo es importante, también lo son los descansos. Un buen descanso nos ayuda a mantenernos sanos, a aumentar nuestra productividad y a mejorar nuestro bienestar general. ¡Así que no olvides tomarte un tiempo para ti!
 
+::contacto-inicial
+
 ## ¿Cómo funcionan las vacaciones según la ley?
 
 La [Ley Federal del Trabajo en México](/ley-federal-del-trabajo) establece en su artículo 76 que todo empleado tiene derecho a un periodo anual de vacaciones pagadas, que no puede ser renunciable por ningún motivo.
