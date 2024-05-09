@@ -39,6 +39,7 @@ jobs:
           build-args: |
             NEXT_PUBLIC_POSTHOG_KEY=${{ secrets.NEXT_PUBLIC_POSTHOG_KEY }}
             NEXT_PUBLIC_POSTHOG_HOST=${{ vars.NEXT_PUBLIC_POSTHOG_HOST }}
+            DOPPLER_TOKEN=${{ secrets.DOPPLER_TOKEN }}
 
       # Deploy to CapRover
       - name: Deploy Image to CapRover
