@@ -1,9 +1,21 @@
 import {createAirtableRecord} from '~/lib/airtable'
 
 export async function POST (request: Request) {
-  const body = await request.json()
+  try {
+    const body = await request.json()
 
-  const record = await createAirtableRecord(body)
+    const record = await createAirtableRecord(body)
 
-  return Response.json(record)
+    if ('status' in record) {
+      return Response.json(record, {
+        status: 400,
+      })
+    }
+
+    return Response.json(record)
+  } catch (error) {
+    return Response.json(error, {
+      status: 500,
+    })
+  }
 }
