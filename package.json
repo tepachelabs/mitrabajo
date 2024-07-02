@@ -29,7 +29,7 @@
     "remark-directive": "2.0.1",
     "remark-directive-rehype": "0.4.2",
     "theme-ui": "0.16.2",
-    "typescript": "5.4.5"
+    "typescript": "5.5.3"
   },
   "devDependencies": {
     "@types/react-datepicker": "4.19.6",
