@@ -1,7 +1,8 @@
 'use client'
-import es from 'date-fns/locale/es'
+import { es } from 'date-fns/locale/es'
+registerLocale('es', es)
 import {ChangeEvent, useState} from 'react'
-import DatePicker from 'react-datepicker'
+import DatePicker, {registerLocale} from 'react-datepicker'
 import {Button, Divider, Input, Paragraph} from 'theme-ui'
 
 import {Page} from '~/components/page'
@@ -59,7 +60,7 @@ const AguinaldoCalculatorPage = () => {
     <Page title="Calcula tu aguinaldo">
       <Paragraph>¿Cuándo empezaste a trabajar?</Paragraph>
       <DatePicker
-        locale={es}
+        locale={'es'}
         selected={firstWorkDayDate}
         dateFormat="dd/MM/yyyy"
         title="Primer dia de trabajo"
