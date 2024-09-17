@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { FC, ReactNode } from 'react'
 import { Flex, Grid, Heading, Link as TuiLink, Paragraph, ThemeUIStyleObject } from 'theme-ui'
 
+import { ContactForm } from '~/components/contact-form/contact-form.component';
 import { ToTop } from '~/components/to-top/to-top.component'
 
 interface Props {
@@ -94,6 +95,10 @@ export const Page: FC<Props> = ({ children, showGoArticles, showGoToTop = true, 
           )) }
         </Flex>
       </Flex>
+
+      <Grid>
+        <ContactForm />
+      </Grid>
 
       <Grid sx={ styles.body }>
         { title && <Heading as='h1' mb={ 4 }>{ title }</Heading> }
